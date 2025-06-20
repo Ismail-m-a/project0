@@ -20,10 +20,15 @@ body {
     gap: 10px;
 }
 
-.title {
-    text-align: center;
-    margin-top: 200px;
-    font-size: 90px;
+.logo {
+    width: 300px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+.title-logo {
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
 }
 
 .search-form {
@@ -35,13 +40,39 @@ body {
 }
 
 .input-field {
- text-align: center;
-    
+ text-align: center;  
 }
+
+.search-icon {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+    pointer-events: none;
+    width: 20px;
+    color: #007bff;
+}
+
+
 .search-input {
-    width: 30rem;
+    width: 35rem;
     border-radius: 20px;
-    height: 2rem;
+    height: 2.8rem;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid lightgrey;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.search-input:hover {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4); /* Subtle blue shadow on hover */
+    border-color: #007bff; /* Optional: change border color on hover */
+}
+
+.search-input:focus {
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.2);
 }
 
 .search-buttons {
