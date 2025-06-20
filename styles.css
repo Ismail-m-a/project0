@@ -68,7 +68,7 @@ body {
 }
 
 .search-input:hover {
-    box-shadow: 0 0 8px rgba(99, 99, 99, 0.4);
+    box-shadow: 0 0 8px rgba(58, 53, 53, 0.4);
     border-color: #b9b9b9; 
 }
 
@@ -88,5 +88,9 @@ body {
     padding: 10px 10px;
     border-radius: 4px;
     cursor: pointer;
-    border: none;
+    border: 1px solid transparent;
+    transition: border-color 0.1s ease;
+}
+.search-btn:hover {
+    border-color: lightgray;
 }
