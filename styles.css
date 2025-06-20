@@ -22,7 +22,7 @@ body {
 
 .logo {
     width: 300px;
-    margin-top: 150px;
+    margin-top: 120px;
     cursor: pointer;
 }
 .title-logo {
@@ -45,7 +45,7 @@ body {
 
 .search-icon {
     position: absolute;
-    margin-top: 12px;
+    margin-top: 30px;
     margin-left: 15px;
     cursor: pointer;
     pointer-events: none;
@@ -55,20 +55,21 @@ body {
 
 
 .search-input {
+    margin-top: 18px;
     width: 35rem;
     border-radius: 20px;
     height: 2.8rem;
     padding: 10px 10px 10px 40px;
     border: 1px solid lightgrey;
-    background-color: #f9f9f9;
+    background-color: #fff;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     outline: none;
     transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .search-input:hover {
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4); /* Subtle blue shadow on hover */
-    border-color: #007bff; /* Optional: change border color on hover */
+    box-shadow: 0 0 8px rgba(99, 99, 99, 0.4);
+    border-color: #b9b9b9; 
 }
 
 .search-input:focus {
@@ -79,13 +80,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 28px;
     gap: 10px;
 }
 .search-btn {
     font-size: 15px;
     padding: 10px 10px;
-    font-weight: bold;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
