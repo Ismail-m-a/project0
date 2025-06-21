@@ -121,3 +121,9 @@ body {
 .search-btn:hover {
     border-color: lightgray;
 }
+
+.advanced-title {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
