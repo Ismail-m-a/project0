@@ -31,7 +31,8 @@ body {
 }
 
 #image-header {
-    padding: 20px;
+    padding: 18px;
+    transform: translateX(18px);
 }
 
 .logo {
