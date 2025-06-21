@@ -30,6 +30,9 @@ body {
     text-decoration: underline;
 }
 
+#image-header {
+    padding: 20px;
+}
 
 .logo {
     width: 300px;
