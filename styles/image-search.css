@@ -121,28 +121,3 @@ body {
 .search-btn:hover {
     border-color: lightgray;
 }
-
-.advanced-logo img {
-    width: 6%;
-    transform: translateY(-40px)
-}
-
-.advanced-title {
-    color: #d93025;
-    font-size: 20px;
-    margin: 25px 35px;
-}
-.container {
-    margin: 10px 35px;
-}
-
-.sub-title {
-    margin-bottom: 20px;
-}
-
-.fields {
-   float: right;
-   vertical-align: middle;
-   align-items: center;
-   
-}

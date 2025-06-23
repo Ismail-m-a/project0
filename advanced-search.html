@@ -5,48 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="icon" type="image/png" href="images/google-icon.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/advanced-search.css">
 </head>
 <body>
 
-   
-    <div class="header" id="image-header">
-        <a href="index.html">Google search</a>
-        <a href="image-search.html">Images</a>
-    </div>
-
-    <div>
-        <img class="advanced-logo" src="images/google-logo.png" alt="">
-    </div>
-
-    <div class="sub-header">
-        <label class="advanced-title">Advanced search</label>
-    </div>
-
     <div class="container">
-        <div class="sub-title">
-            <span>Find pages with...</span>
+        
+        <div class="header" id="image-header">
+            <a href="index.html">Google search</a>
+            <a href="image-search.html">Images</a>
         </div>
-        <div class="section">
-            <label class="label">all these words:</label>
-            <input type="text" class="input-field">
+
+        <div class="advanced-logo">
+            <img src="images/google-logo.png" alt="">
         </div>
-        <div class="section">
-            <label class="label">this exact word or phrase:</label>
-            <input type="text" class="input-field">
+
+        <div class="sub-header">
+            <label class="advanced-title">Advanced search</label>
         </div>
-        <div class="section">
-            <label class="label">any of these words:</label>
-            <input type="text" class="input-field">
-        </div>
-        <div class="section">
-            <label class="label">none of these words:</label>
-            <input type="text" class="input-field">
-        </div>
+
+        <form>
+            <div class="container">
+                <div class="sub-title">
+                    <span>Find pages with...</span>
+                </div>
+                <div class="form-row">
+                    <label for="allWords" class="label">all these words:</label>
+                    <input type="text" class="input-field">
+                </div>
+                <div class="section">
+                    <label class="label">this exact word or phrase:</label>
+                    <input type="text" class="input-field">
+                </div>
+                <div class="section">
+                    <label class="label">any of these words:</label>
+                    <input type="text" class="input-field">
+                </div>
+                <div class="section">
+                    <label class="label">none of these words:</label>
+                    <input type="text" class="input-field">
+                </div>
+            
+                <div class="advanced-btn">
+                    <input type="submit" class="search-btn" value="Advanced search">
+                </div>
     
-        <div class="advanced-btn">
-            <input type="submit" value="Advanced search">
-        </div>
+            </div>
+
+        </form>
 
     </div>
 
