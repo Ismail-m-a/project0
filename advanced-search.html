@@ -24,26 +24,26 @@
             <p class="advanced-title">Advanced search</p>
         </div>
         
-        <form>
+        <form action="https://google.com/search" method="get">
             <div class="container">
                 <div class="sub-title">
                     <span>Find pages with...</span>
                 </div>
                 <div class="form-row">
                     <label for="allWords">all these words:</label>
-                    <input type="text" class="input-field">
+                    <input type="text" id="allWords" name="as_q" class="input-field">
                 </div>
                 <div class="form-row">
                     <label for="exactWord">this exact word or phrase:</label>
-                    <input type="text" class="input-field">
+                    <input type="text" id="exactWord" name="as_epq" class="input-field">
                 </div>
-                <div class="section">
-                    <label class="label">any of these words:</label>
-                    <input type="text" class="input-field">
+                <div class="form-row">
+                    <label for="anyWords">any of these words:</label>
+                    <input type="text" id="anyWords" name="as_oq" class="input-field">
                 </div>
-                <div class="section">
-                    <label class="label">none of these words:</label>
-                    <input type="text" class="input-field">
+                <div class="form-row">
+                    <label for="noneWords" class="label">none of these words:</label>
+                    <input type="text" id="noneWords" name="as_eq" class="input-field">
                 </div>
             
                 <div class="advanced-btn">
