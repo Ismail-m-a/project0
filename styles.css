@@ -18,6 +18,8 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
 }
 
 .header a {
