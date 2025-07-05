@@ -61,6 +61,7 @@ body {
     cursor: pointer;
 }
 .title-logo {
+    position: relative;
     justify-content: center;
     align-items: center;
     margin-left: 650px;
@@ -68,10 +69,10 @@ body {
 
 
 .search-form {
-    align-items: center;
-    /* justify-content: center; */
     display: flex;
+    align-items: center;
     flex-direction: column;
+    /* justify-content: center; */
 
 }
 
