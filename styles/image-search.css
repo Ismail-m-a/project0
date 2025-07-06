@@ -72,8 +72,8 @@ body {
 }
 .logo-text {
     position: relative;
-    padding-left: 220px;
-    transform: translateY(-8px);
+    padding-left: 230px;
+    transform: translateY(-25px);
     cursor: pointer;
     color: #007bff;
     font-weight: bold;
