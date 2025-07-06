@@ -14,10 +14,34 @@ body {
 }
 
 .header {
-    margin: 4px 30px 0 0;
+    display: flex;
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    /* margin: 4px 30px 0 0;
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 10px; */
+}
+
+.header-left {
+    padding-top: 6px;
+}
+
+.header-right a {
+    margin-left: 10px;
+}
+
+.img-logo {
+    display: inline-block;
+    width: 74px;
+    height: 25px;
 }
 
 .header a {
@@ -30,10 +54,10 @@ body {
     text-decoration: underline;
 }
 
-#image-header {
+/* #image-header {
     padding: 18px;
     transform: translateX(18px);
-}
+} */
 
 .logo {
     width: 300px;
@@ -41,32 +65,36 @@ body {
     cursor: pointer;
 }
 .title-logo {
+    position: relative;
     justify-content: center;
     align-items: center;
     margin-left: 650px;
 }
 .logo-text {
-    padding-left: 210px;
-    transform: translateY(-20px);
+    padding-left: 220px;
+    transform: translateY(-8px);
     cursor: pointer;
     color: #007bff;
+    font-weight: bold;
 }
 
 .search-form {
+    display: flex;
     align-items: center;
     /* justify-content: center; */
-    display: flex;
     flex-direction: column;
+    transform: translateY(-20px);
 
 }
 
 .input-field {
- text-align: center;  
+ text-align: center;
+ 
 }
 
 .search-icon {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: 15px;
     cursor: pointer;
     pointer-events: none;
@@ -77,15 +105,15 @@ body {
 .mic-icon {
     position: absolute;
     width: 20px;
-    margin-top: 30px;
-    margin-left: 510px;
+    margin-top: 35px;
+    margin-left: 570px;
 }
 
 .search-input {
     margin-top: 18px;
-    width: 35rem;
-    border-radius: 20px;
-    height: 2.8rem;
+    width: 39rem;
+    border-radius: 30px;
+    height: 3.2rem;
     padding: 10px 10px 10px 40px;
     border: 1px solid lightgrey;
     background-color: #fff;
@@ -112,7 +140,7 @@ body {
 }
 .search-btn {
     font-size: 15px;
-    padding: 10px 10px;
+    padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     border: 1px solid transparent;

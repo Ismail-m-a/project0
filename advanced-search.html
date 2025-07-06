@@ -8,43 +8,54 @@
     <link rel="stylesheet" href="styles/advanced-search.css">
 </head>
 <body>
-
-    <div class="container">
-
-        
-        <div class="header" id="image-header">
+    <div class="header">
+        <div class="header-left">
+            <a href="index.html" class="logo-link">
+                <img title="Go to Google home" class="img-logo" src="images/google-logo.png" alt="Google-logo">
+            </a>
+        </div>
+        <div class="header-right">
             <a href="index.html">Google search</a>
             <a href="image-search.html">Images</a>
         </div>
-
-        <div class="advanced-logo">
-            <img src="images/google-logo.png" alt="">
-        </div>
-
-        <div class="sub-header">
-            <p class="advanced-title">Advanced search</p>
-        </div>
+    
         
+    </div>
+    <div class="sub-header">
+        <p class="advanced-search-title">Advanced search</p>
+    </div>
+    
+    <div class="border-under"></div>
+    
+    <div class="container">
+
         <form action="https://google.com/search" method="get">
             <div class="form-section">
                 <div class="sub-title">
-                    <span>Find pages with...</span>
+                    <div>Find pages with ...</div>
+                    <div class="search-tips">
+                        <span>Use this way the searching</span>
+                    </div>
                 </div>
                 <div class="form-row">
-                    <label for="allWords">all these words:</label>
+                    <label class="form-label" for="allWords">all these words:</label>
                     <input type="text" id="allWords" name="as_q" class="input-field">
+                    <span class="tips1">Ange de viktigaste orden: tvåfärgad fransk bulldogg</span>
                 </div>
                 <div class="form-row">
-                    <label for="exactWord">this exact word or phrase:</label>
+                    <label class="form-label" for="exactWord">this exact word or phrase:</label>
                     <input type="text" id="exactWord" name="as_epq" class="input-field">
+                    <span class="tips1">Ange de viktigaste orden: tvåfärgad fransk bulldogg</span>
                 </div>
                 <div class="form-row">
-                    <label for="anyWords">any of these words:</label>
+                    <label class="form-label" for="anyWords">any of these words:</label>
                     <input type="text" id="anyWords" name="as_oq" class="input-field">
+                    <span class="tips1">Ange de viktigaste orden: tvåfärgad fransk bulldogg</span>
                 </div>
                 <div class="form-row">
-                    <label for="noneWords" class="label">none of these words:</label>
+                    <label class="form-label" for="noneWords" class="label">none of these words:</label>
                     <input type="text" id="noneWords" name="as_eq" class="input-field">
+                    <span class="tips1">Ange de viktigaste orden: tvåfärgad fransk bulldogg</span>
                 </div>
             
                 <div class="advanced-btn">
@@ -54,6 +65,8 @@
             </div>
 
         </form>
+        
+
 
     </div>
 
