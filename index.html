@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Google</title>
-        <link rel="icon" type="image/png" href="images/google-icon.png">
-        <link rel="stylesheet" href="./styles/search.css">
-    </head>
-    <body>
-        <div class="header">
-            <div class="header-left">
-                <a href="index.html" class="logo-link">
-                <img title="Go to Google home" class="img-logo" src="images/google-logo.png" alt="Google-logo">
-            </a>
-            </div>
-            <div class="header-right">
-                <a href="image-search.html">Images</a>
-                <a href="advanced-search.html">Advanced search</a>
-
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="styles/search.css">
+    <link rel="icon" type="image/png" href="images/google-icon.png">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <a href="index.html" class="logo-link">
+            <img title="Go to Google home" class="img-logo" src="images/google-logo.png" alt="Google-logo">
+        </a>
         </div>
-        <div class="title-logo">
+        <div class="header-right">
+            <a href="image-search.html">Images</a>
+            <a href="advanced-search.html">Advanced search</a>
+
+        </div>
+    </div>
+    <div class="title-logo">
+        <div class="logo-wrapper">
             <img src="images/google-logo.png" class="logo" alt="logo">
         </div>
-        <form action="https://google.com/search" class="search-form" method="GET">
+    </div>
+    <form action="https://google.com/search" class="search-form" method="GET">
+        <div class="input-container">
             <div class="input-field">
                 <img src="images/icon-search.png" alt="Search Icon" class="search-icon">
+                <img src="images/mic.png" alt="microfone" class="mic-icon">
                 <input type="text" name="q" class="search-input">
             </div>
-            <div class="search-buttons">
-                <input type="submit" value="Google Search" class="search-btn">
-                <input type="submit" value="I'm Feeling Lucky" name="btnI" class="search-btn">
-            </div>
-        </form>
-    </body>
+        </div>
+        <div class="search-buttons">
+            <input type="submit" value="Google Search" class="search-btn">
+            <input type="submit" value="I'm Feeling Lucky" name="btnI" class="search-btn">
+        </div>
+    </form>
+</body>
 </html>
