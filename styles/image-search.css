@@ -16,13 +16,12 @@ body {
 .header {
     display: flex;
     position: absolute;
-    top: 0;
     width: 100%;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
     background-color: #f8f9fa;
-    /* background-color: black; */
     border-bottom: 1px solid #ddd;
 }
 
@@ -46,8 +45,8 @@ body {
     text-decoration: none;
     font-size: 13px;
     color: rgba(0, 0, 0, .87);
-    font-family: arial, sans-serif;
 }
+
 .header a:hover {
     text-decoration: underline;
 }
@@ -57,14 +56,14 @@ body {
     width: 100%;
     max-width: 300px;
     height: auto;
-    cursor: pointer;
 }
+
 .title-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 16px;
-    margin-top: 120px;
+    margin-top: 180px;
 }
 
 .logo-wrapper {
@@ -76,9 +75,9 @@ body {
 
 .logo-text {
     position: absolute;
-    bottom: -10px;
-    right: 0;
-    font-size: 1.5rem;
+    bottom: 7px;
+    right: 17px;
+    font-size: 1rem;
     cursor: pointer;
     color: #007bff;
 }
@@ -89,8 +88,7 @@ body {
     align-items: center;
     width: 100%;
     padding: 0 16px;
-    margin-top: 30px;
-    /* justify-content: center; */
+    margin-top: 20px;
 }
 
 .input-container {

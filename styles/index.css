@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: arial, sans-serif;
     background-color: #fff;
@@ -16,9 +17,8 @@ body {
 .header {
     display: flex;
     position: relative;
+    width: 100%;
     top: 0;
-    margin-top: 0;
-    max-width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
@@ -32,21 +32,22 @@ body {
 
 .header-right a {
     margin-left: 10px;
+    white-space: nowrap;
 }
 
 .img-logo {
     display: inline-block;
     width: 74px;
-    height: 25px;
+    height: auto;
 }
 
 .header a {
     text-decoration: none;
     font-size: 13px;
     color: rgba(0, 0, 0, .87);
-    font-family: arial, sans-serif;
     
 }
+
 .header a:hover {
     text-decoration: underline;
 }
@@ -56,55 +57,76 @@ body {
     width: 100%;
     max-width: 300px;
     height: auto;
-    cursor: pointer;
 }
+
 .title-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 16px;
-    margin-top: 120px;
+    margin-top: 110px;
 }
 
+.logo-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+}
 
 .search-form {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 20px;
+}
+
+/* waan ku daray, fahan?? */
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 584px;
+    margin: 0 auto;
 }
 
 .input-field {
- text-align: center;  
+    position: relative;
+    width: 100%;  
 }
 
 .search-icon {
     position: absolute;
-    margin-top: 35px;
-    margin-left: 15px;
-    pointer-events: none;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
     width: 20px;
+    height: 20px;
+    pointer-events: none;
     color: #007bff;
 }
 
 .mic-icon {
     position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
     width: 20px;
-    margin-top: 35px;
-    margin-left: 550px;
-    cursor: pointer;
+    height: 20px;
+    pointer-events: none;
 }
 
 .search-input {
-    margin-top: 18px;
-    width: 36.5rem;
-    border-radius: 30px;
+    width: 100%;
+    border-radius: 1.875rem;
     height: 3.3rem;
-    padding: 10px 10px 10px 40px;
+    padding: 0 40px;
     border: 1px solid lightgrey;
     background-color: #fff;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     outline: none;
+    font-size: 16px;
     transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
